@@ -1,0 +1,86 @@
+@import url(./assets/fonts/Author/WEB/css/author.css);
+@import url(./assets/fonts/Montserrat/WEB/css/montserrat.css);
+@import "tailwindcss";
+
+/* Custom Fonts */
+@theme {
+    /* Author font */
+    --font-author-extralight: Author-Extralight;
+    --font-author-extralightitalic: Author-ExtralightItalic;
+    --font-author-light: Author-Light;
+    --font-author-lightitalic: Author-LightItalic;
+    --font-author: Author-Regular;
+    --font-author-italic: Author-Italic;
+    --font-author-medium: Author-Medium;
+    --font-author-mediumitalic: Author-MediumItalic;
+    --font-author-semibold: Author-Semibold;
+    --font-author-semibolditalic: Author-SemiboldItalic;
+    --font-author-bold: Author-Bold;
+    --font-author-bolditalic: Author-BoldItalic;
+
+    /* Montserrat font */
+    --font-montserrat-extralight: Montserrat-Extralight;
+    --font-montserrat-extralightitalic: Montserrat-ExtralightItalic;
+    --font-montserrat-light: Montserrat-Light;
+    --font-montserrat-lightitalic: Montserrat-LightItalic;
+    --font-montserrat: Montserrat-Regular;
+    --font-montserrat-italic: Montserrat-Italic;
+    --font-montserrat-medium: Montserrat-Medium;
+    --font-montserrat-mediumitalic: Montserrat-MediumItalic;
+    --font-montserrat-semibold: Montserrat-Semibold;
+    --font-montserrat-semibolditalic: Montserrat-SemiboldItalic;
+    --font-montserrat-bold: Montserrat-Bold;
+    --font-montserrat-bolditalic: Montserrat-BoldItalic;
+
+    /* Breakpoint */
+    /* --breakpoint-halfxl: 1440px; */
+
+    /* Colors */
+    --color-secondBlack: #181818;
+    --color-thirdBlack: #343434;
+    --color-myGray: #d3d3d3;
+    --color-myGrayOpacity: #d3d3d355;
+}
+
+body {
+    font-family: var(--font-author);
+}
+
+h1,
+h2 {
+    font-family: var(--font-montserrat-bold);
+}
+
+h2 {
+    font-size: 1.125rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Target the whole scrollbar (global style) */
+::-webkit-scrollbar {
+    width: 12px; /* width of the vertical scrollbar */
+    height: 12px; /* height of the horizontal scrollbar */
+}
+
+/* Style the track */
+::-webkit-scrollbar-track {
+    background: var(--color-thirdBlack);
+    border-radius: 24px;
+}
+
+/* Style the thumb */
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-myGrayOpacity);
+    border-radius: 24px; /* roundness of the scroll thumb */
+    border: 3px solid var(--color-thirdBlack); /* creates padding around scroll thumb */
+}
+
+@keyframes scrolling {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
