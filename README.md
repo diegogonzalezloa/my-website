@@ -1,11 +1,9 @@
 <h1>My Website</h1>
 
-<p>This project is Diego's website that works as a resume. There appears all info about my projects, education, and social media links. If you are interested in working with or knowing more about me, you can enter to it. <a href="">Link</a></p>
+<p>This project is Diego's website that works as a resume. There appears all info about my projects, education, and social media links. If you are interested in working with or knowing more about me, you can enter to it. <a href="https://diegogonzalezloa.github.io/my-website/">Link</a></p>
 
 <h4>Used Technologies</h4>
-<img src="./public/vite.png" alt="Vite Icon" width="40px" />
-<img src="./public/react.png" alt="React Icon" width="40px" />
-<img src="./public/tailwind.png" alt="TailwindCSS Icon" width="40px" />
+<img src="./public/vite.png" alt="Vite Icon" width="40px" /><img src="./public/react.png" alt="React Icon" width="40px" /><img src="./public/tailwind.png" alt="TailwindCSS Icon" width="40px" />
 
 <img src="./public/full-hd.png" alt="" width="100%" style="margin: 30px 0" />
 

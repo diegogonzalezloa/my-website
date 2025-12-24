@@ -1,4 +1,5 @@
 import { Component } from "react";
+import ExternalLink from "../assets/icons/ExternalLink";
 
 class Projects extends Component {
     constructor(props) {
@@ -42,9 +43,10 @@ class Projects extends Component {
                                 title={item.link}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="underline hover:text-white"
+                                className="flex gap-x-2 underline hover:text-white [&>svg]:w-3 hover:stroke-white"
                             >
-                                {item.title}
+                                <span>{item.title}</span>
+                                <ExternalLink />
                             </a>
                             <p>{item.text}</p>
                         </li>

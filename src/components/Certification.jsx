@@ -7,8 +7,8 @@ class Certification extends Component {
         this.state = {
             items: [
                 {
-                    school: "Getting Started with Git and GitHub",
-                    name: "IBM",
+                    school: "IBM",
+                    name: "Getting Started with Git and GitHub",
                     issued: "Nov 2025",
                     id: "P7HM29ZZ4QBX",
                     link: "https://www.coursera.org/account/accomplishments/records/P7HM29ZZ4QBX",
