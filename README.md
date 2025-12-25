@@ -3,9 +3,12 @@
 <p>This project is Diego's website that works as a resume. There appears all info about my projects, education, and social media links. If you are interested in working with or knowing more about me, you can enter to it. <a href="https://diegogonzalezloa.github.io/my-website/">Link</a></p>
 
 <h4>Used Technologies</h4>
+<div>
 <img src="./public/vite.png" alt="Vite Icon" width="40px" /><img src="./public/react.png" alt="React Icon" width="40px" /><img src="./public/tailwind.png" alt="TailwindCSS Icon" width="40px" />
+</div>
 
-<img src="./public/full-hd.png" alt="" width="100%" style="margin: 30px 0" />
+<h4>Screenshot</h4>
+<img src="./public/full-hd.png" alt="Screenshot" />
 
 <h2>Run in Your Local Repository </h2>
 
