@@ -44,6 +44,7 @@
 
 body {
     font-family: var(--font-author);
+    background-color: black;
 }
 
 h1,
@@ -74,6 +75,14 @@ h2 {
     background-color: var(--color-myGrayOpacity);
     border-radius: 24px; /* roundness of the scroll thumb */
     border: 3px solid var(--color-thirdBlack); /* creates padding around scroll thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--color-myGray);
+}
+
+::-webkit-scrollbar-thumb:active {
+    background-color: var(--color-myGray);
 }
 
 @keyframes scrolling {
