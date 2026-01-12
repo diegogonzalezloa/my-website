@@ -8,6 +8,11 @@ class Projects extends Component {
         this.state = {
             items: [
                 {
+                    title: "TaskChecker",
+                    text: "Built a to-do list that makes scheduling tasks easy The front end of the software was created using React and some of its libraries. Additionally,TailwindCSS was used to style the UI.(Still in AlphaVersion)",
+                    link: "https://github.com/diegogonzalezloa/task-checker",
+                },
+                {
                     title: "React and Tailwind Project",
                     text: "Explored the React library by creating modules (such as a dynamic text, a responsive input, and a stylized button), and the webpage was styled with the utility framework Tailwind.",
                     link: "https://github.com/diegogonzalezloa/React-and-Tailwind-Project",
