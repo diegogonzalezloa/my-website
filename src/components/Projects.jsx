@@ -8,8 +8,13 @@ class Projects extends Component {
         this.state = {
             items: [
                 {
+                    title: "Shoes Landing Page",
+                    text: "Developed a landing page of shoes that make the user experience very free-flowing when shopping. The front end of the software was created using React. Additionally, TailwindCSS was used to style the UI.The states was managed with the Redux library.",
+                    link: "https://github.com/diegogonzalezloa/shoes-landing-page",
+                },
+                {
                     title: "TaskChecker",
-                    text: "Built a to-do list that makes scheduling tasks easy The front end of the software was created using React and some of its libraries. Additionally,TailwindCSS was used to style the UI.(Still in AlphaVersion)",
+                    text: "Built a to-do list that makes scheduling tasks easy The front end of the software was created using React and some of its libraries. Additionally,TailwindCSS was used to style the UI.(Still in Alpha Version).",
                     link: "https://github.com/diegogonzalezloa/task-checker",
                 },
                 {
