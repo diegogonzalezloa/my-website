@@ -8,6 +8,14 @@ class Certification extends Component {
             items: [
                 {
                     school: "IBM",
+                    name: "Developing Front-End Apps with React",
+                    issued: "Feb 2026",
+                    id: "7MKZX2FSAMBX",
+                    link: "https://www.coursera.org/account/accomplishments/records/7MKZX2FSAMBX",
+                    skills: "React · Redux",
+                },
+                {
+                    school: "IBM",
                     name: "Getting Started with Git and GitHub",
                     issued: "Nov 2025",
                     id: "P7HM29ZZ4QBX",

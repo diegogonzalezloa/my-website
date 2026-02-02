@@ -10,8 +10,8 @@ class Education extends Component {
                     school: "Coursera - IBM",
                     degree: "Full Stack Software Developer",
                     "end date": "In progress",
-                    description: "Approximately 64 hours out of 208",
-                    skills: "Redux · React · Git · Cloud Computing · Software Development Life Cycle (SDLC) ",
+                    description: "Approximately 67 hours out of 208",
+                    skills: "React · Git · Cloud Computing · Software Development Life Cycle (SDLC) ",
                 },
                 {
                     school: "Smart Language Academy",
