@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import ReactIcon from "../assets/icons/React";
+import ReduxIcon from "../assets/icons/Redux";
 import TailwindCSS from "../assets/icons/TailwindCSS";
 import Git from "../assets/icons/Git";
 import HTML from "../assets/icons/HTML";
@@ -20,6 +21,10 @@ class Stack extends Component {
                 {
                     title: "React",
                     icon: <ReactIcon />,
+                },
+                {
+                    title: "Redux",
+                    icon: <ReduxIcon />,
                 },
                 {
                     title: "TailwindCSS",

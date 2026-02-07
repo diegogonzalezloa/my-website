@@ -107,7 +107,7 @@ class Cover extends Component {
                     </div>
                     <p className="text-[0.875rem] opacity-80">
                         Full Stack Software Developer in Training | React.js ·
-                        Tailwind CSS · English
+                        Redux · Tailwind CSS · English
                     </p>
                 </div>
                 <div className="col-span-full sm:col-[2/3] sm:-mt-3 lg:mt-0">
