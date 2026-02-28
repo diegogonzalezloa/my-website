@@ -12,7 +12,7 @@ class Certification extends Component {
                     issued: "Feb 2026",
                     id: "7MKZX2FSAMBX",
                     link: "https://www.coursera.org/account/accomplishments/records/7MKZX2FSAMBX",
-                    skills: "React · Redux",
+                    skills: "React.js · Redux",
                 },
                 {
                     school: "IBM",
@@ -55,7 +55,7 @@ class Certification extends Component {
                     skills: "HTML · CSS",
                 },
                 {
-                    school: "British Council",
+                    school: "British Council (Overall Grade English B2)",
                     name: "Aptis ESOL General Test",
                     issued: "Apr 2024",
                     id: "0x4ed4e0ffa915a1365313ff219e9da16269ed3611e6eb5778c0fdf35700dd5430",

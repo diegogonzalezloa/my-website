@@ -11,7 +11,7 @@ class Education extends Component {
                     degree: "Full Stack Software Developer",
                     "end date": "In progress",
                     description: "Approximately 67 hours out of 208",
-                    skills: "React · Git · Cloud Computing · Software Development Life Cycle (SDLC) ",
+                    skills: "React.js · Node.js · Express.js · Git · Cloud Computing · Software Development Life Cycle (SDLC) ",
                 },
                 {
                     school: "Smart Language Academy",

@@ -8,6 +8,11 @@ class Projects extends Component {
         this.state = {
             items: [
                 {
+                    title: "Login App",
+                    text: "Created an entire application for logging into a basic dashboard. All the frontend part was developed with React and Tailwind. For the backend part, Node.js and Express were used to authenticate and sign up an account. Furthermore, the jsonwebtoken and nodemailer libraries were used to improve the security of the app. Finally, all the users' data is saved in a JSON file.",
+                    link: "https://github.com/diegogonzalezloa/login-app",
+                },
+                {
                     title: "Shoes Landing Page",
                     text: "Developed a landing page of shoes that make the user experience very free-flowing when shopping. The front end of the software was created using React. Additionally, TailwindCSS was used to style the UI. The states was managed with the Redux library.",
                     link: "https://github.com/diegogonzalezloa/shoes-landing-page",
@@ -16,11 +21,6 @@ class Projects extends Component {
                     title: "TaskChecker",
                     text: "Built a to-do list that makes scheduling tasks easy The front end of the software was created using React and some of its libraries. Additionally, TailwindCSS was used to style the UI. (Still in Alpha Version).",
                     link: "https://github.com/diegogonzalezloa/task-checker",
-                },
-                {
-                    title: "React and Tailwind Project",
-                    text: "Explored the React library by creating modules (such as a dynamic text, a responsive input, and a stylized button), and the webpage was styled with the utility framework Tailwind.",
-                    link: "https://github.com/diegogonzalezloa/React-and-Tailwind-Project",
                 },
                 {
                     title: "The Lionel Messi's Life and Career",

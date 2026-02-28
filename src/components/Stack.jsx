@@ -10,6 +10,8 @@ import JS from "../assets/icons/JS";
 import MATLAB from "../assets/icons/MATLAB";
 import LaTeX from "../assets/icons/LaTeX";
 import Inkscape from "../assets/icons/Inkscape";
+import NodeIcon from "../assets/icons/Node";
+import ExpressIcon from "../assets/icons/Express";
 
 class Stack extends Component {
     constructor(props) {
@@ -19,12 +21,16 @@ class Stack extends Component {
         this.state = {
             items: [
                 {
-                    title: "React",
+                    title: "React.js",
                     icon: <ReactIcon />,
                 },
                 {
-                    title: "Redux",
-                    icon: <ReduxIcon />,
+                    title: "Node.js",
+                    icon: <NodeIcon />,
+                },
+                {
+                    title: "Express.js",
+                    icon: <ExpressIcon />,
                 },
                 {
                     title: "TailwindCSS",
@@ -33,6 +39,10 @@ class Stack extends Component {
                 {
                     title: "Git",
                     icon: <Git />,
+                },
+                {
+                    title: "Redux",
+                    icon: <ReduxIcon />,
                 },
                 {
                     title: "HTML",
